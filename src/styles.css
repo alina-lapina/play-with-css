@@ -1,0 +1,25 @@
+.flex-container {
+    display: flex;
+}
+
+body {
+    margin: 0;
+    font-family:  "Open Sans", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+    font-family:  "Open Sans Light", Arial, sans-serif;
+}
+
+header {
+    background-color: lightgray;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    font-size: calc(6px + 2vmin);
+    color: black;
+}
